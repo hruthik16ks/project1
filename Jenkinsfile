@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 environment {
     DOCKERHUB_CREDENTIALS = 'dockerhub-creds'
     DOCKERHUB_USERNAME = 'hruthik16ks'
@@ -71,6 +70,4 @@ stages {
         }
     }
 }
-```
 
-}
